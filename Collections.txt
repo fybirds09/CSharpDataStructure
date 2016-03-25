@@ -1,0 +1,8 @@
+ArrayList: expandable, contiguous memory, indexible, Type unsafe
+	Add: O(1) for enough capacity
+		 O(N) for other
+	Insert & Remove O(N)
+	
+List: expandable, contiguous memory, circular array,
+	Operations: O(N)
+	
