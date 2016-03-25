@@ -1,0 +1,14 @@
+Array: fixed size, easy to find index, modify, hard to insert, remove.
+
+ArrayList: expandable, contiguous memory, indexible, Type unsafe (boxing and unboxing -> object so performance down)	
+	Add: O(1) for enough capacity
+		 O(N) for other
+	Insert & Remove O(N)
+	
+List: wraps an expandable circular array (contiguous memory)
+	Operations: O(N)
+	
+SortedList: wraps two expandable arrays (contiguous memory) for keys and values
+	no duplicte keys
+	Operations: O(N)
+	
